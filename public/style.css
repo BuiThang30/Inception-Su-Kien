@@ -1,0 +1,1186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: #FFF;
+}
+
+/* ══════════════════════════════
+   NAVBAR
+══════════════════════════════ */
+.navbar {
+  background: #014DEE;
+  padding: 5px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hamburger ẩn trên desktop */
+.hamburger {
+  display: none;
+}
+
+.nav-menu .mobile-cta {
+  display: none;
+}
+
+.logo img {
+  max-height: 70px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 21.834px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138.464%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.nav-btn a {
+  background: white;
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 21.834px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138.464%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.nav-btn a:hover {
+  background: #e6e6e6;
+  transform: scale(1.05);
+}
+
+#tongquan,
+#workshop,
+#diengia,
+#khachmoi,
+#lienhe,
+#dangky {
+  scroll-margin-top: 150px;
+}
+
+/* ══════════════════════════════
+   HERO
+══════════════════════════════ */
+.hero {
+  padding: 140px 0px 0px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.hero-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  width: 780px;
+}
+
+.event {
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 26.104px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 135.369px;
+  font-weight: 700;
+  line-height: 99%;
+}
+
+.subtitle {
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 30.567px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.desc {
+  color: #014DEE;
+  font-family: Montserrat;
+  font-size: 17.467px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 37.117px;
+  margin-top: 30px;
+}
+
+.desc b {
+  color: #014DEE;
+  font-family: Montserrat;
+  font-size: 17.467px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37.117px;
+}
+
+.time {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 21.834px;
+  font-weight: 600;
+  margin-top: 45px;
+  background-color: #014DEE;
+  padding: 20px;
+  width: fit-content;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 770px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+/* ══════════════════════════════
+   LINE / DIVIDER
+══════════════════════════════ */
+.line {
+  width: 1440px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #014DEE;
+}
+
+/* ══════════════════════════════
+   LOGO SECTION
+══════════════════════════════ */
+.logo-section {
+  padding: 60px 0;
+  text-align: center;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.logo-section h2 {
+  color: #014DEE;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 48.034px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+/* ══════════════════════════════
+   SLIDER
+══════════════════════════════ */
+.slider {
+  overflow: hidden;
+  width: 100%;
+  margin: 20px 0;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+}
+
+.logo-row {
+  height: 70px;
+  flex-shrink: 0;
+  margin-right: 80px;
+}
+
+/* ══════════════════════════════
+   WORKSHOP IMAGE
+══════════════════════════════ */
+.workshop-image {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  margin: 30px auto;
+}
+
+
+/* ══════════════════════════════
+  MENTOR
+══════════════════════════════ */
+
+.mentor-section {
+  width: 1440px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.title-box {
+  text-align: center;
+}
+
+.tag {
+  background: #014DEE;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 20px;
+  font-family: Raleway;
+  font-size: 58.951px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.title-box h1 {
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 58.951px;
+  font-weight: 700;
+}
+
+.mentor-images {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.mentor-images img {
+  width: 1440px;
+}
+
+/* ══════════════════════════════
+  KHACH MOI
+══════════════════════════════ */
+.khachmoi {
+  background: #014DEE;
+  padding: 50px 0;
+  width: 1440px;
+  margin: 40px auto;
+}
+
+/* CONTAINER */
+.container-khachmoi {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px 40px 20px;
+}
+
+/* TITLE */
+.title-khachmoi-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px 30px 40px;
+}
+
+.title-khachmoi {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 106px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.title-khachmoi-highlight {
+  display: inline-block;
+  background: #FFF;
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 106px;
+  font-weight: 700;
+  padding: 20px 0px 20px 20px;
+}
+
+.arrow-dacbiet {
+  height: 72px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* GRID */
+.right-khachmoi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+  justify-items: center;
+}
+
+/* CARD */
+.card-khachmoi {
+  text-align: left;
+  width: 100%;
+  max-width: 390px;
+}
+
+/* IMAGE */
+.image-khachmoi {
+  width: 100%;
+  max-width: 390px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* LINE dưới ảnh */
+.line-image {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin: 15px 0 5px 0;
+}
+
+/* NAME */
+.name-khachmoi {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* HỌC BỔNG */
+.hocbong {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* LINE NGANG GRID */
+.line-khachmoi {
+  grid-column: 1 / -1;
+  justify-self: stretch;
+  height: 1px;
+  background: #fff;
+  margin: 20px 30px;
+}
+
+/* ══════════════════════════════
+  DANG KY
+══════════════════════════════ */
+.dangky {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  gap: 150px;
+  align-items: stretch;
+  padding: 40px 0;
+}
+
+/* LEFT */
+.left {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left h1 {
+  color: #014DEE;
+  font-size: 61.134px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 40px;
+  font-family: Raleway;
+}
+
+.gift {
+  border-top: 2px solid #014DEE;
+  padding: 30px 0;
+  color: #014DEE;
+  font-size: 21.834px;
+  font-weight: 600;
+  font-family: Raleway;
+}
+
+/* RIGHT */
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.right h2 {
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 61.134px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* FORM */
+form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-group {
+  border-top: 2px solid #014DEE;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.form-group label {
+  color: #014DEE;
+  font-family: Raleway;
+  font-size: 21.834px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ===== INPUT ===== */
+.form-group .input-line {
+  flex: 1;
+  position: relative;
+  margin-left: 30px;
+}
+
+.form-group .input-line input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  color: #014DEE;
+  font-size: 21.834px;
+  font-weight: 600;
+  font-family: Raleway;
+}
+
+.form-group .input-line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #014DEE;
+  transform: scaleY(0.5);
+  transform-origin: bottom;
+}
+
+/* ===== TEXTAREA ===== */
+.form-group textarea {
+  flex: 1;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  color: #014DEE;
+  font-size: 21.834px;
+  font-weight: 600;
+  font-family: Raleway;
+
+  line-height: 30px;
+  height: 60px;
+
+  box-sizing: border-box;
+  padding: 0;
+
+  overflow-y: auto;
+  resize: none;
+
+  background-image: linear-gradient(#014DEE, #014DEE),
+                    linear-gradient(#014DEE, #014DEE);
+  background-size: 100% 0.5px, 100% 0.5px;
+  background-position: 0 29px, 0 59px;
+  background-repeat: no-repeat;
+}
+
+/* giữ layout column */
+.form-group.column {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+}
+
+/* BUTTON */
+button {
+  margin-top: 20px;
+  background: #014DEE;
+  color: #fff;
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background: #5b9ac4;
+  transform: scale(1.05);
+}
+
+/* ══════════════════════════════
+  KET QUA
+══════════════════════════════ */
+
+.ketqua{
+  width:1440px;
+  display:flex;
+  background-color: #014DEE;
+  margin: 30px auto;
+  padding: 50px 0;
+  flex-direction: column;
+}
+
+.container-ketqua{
+  width:90%;
+  margin:auto;
+  display:flex;
+  gap:80px;
+}
+
+.sub-ketqua{
+  width:90%;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 26.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom:20px;
+  margin:20px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+/* LEFT 0.4 */
+.left-ketqua{
+  width:40%;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:start;
+}
+
+/* RIGHT 0.6 */
+.right-ketqua{
+  width:60%;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
+}
+
+/* TEXT LEFT */
+
+.title-ketqua{
+  font-size:96.068px;
+  font-weight:700;
+  line-height:1.1;
+  margin-top: 100px;
+}
+
+/* LINE */
+.line-ketqua{
+  width:100%;
+  height:1px;
+  background:#fff;
+}
+
+/* RIGHT TEXT */
+.item-ketqua{
+  font-size:24.017px;
+  font-weight:500;
+  text-align:right;
+  margin:30px 0;
+  max-width:100%;
+}
+
+.divider-ketqua{
+  width:100%;
+  height:1px;
+  background:#fff;
+}
+
+/* BUTTON */
+.btn-ketqua{
+  margin-top:40px;
+  background:#e6e6e6;
+  color:#014DEE;
+  font-size:61.134px;
+  font-weight:700;
+  border:none;
+  padding:15px 60px;
+  cursor:pointer;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  transition: all 0.3s ease;
+}
+
+.btn-ketqua:hover{
+  background: #5b9ac4;
+  transform: scale(1.05);
+}
+
+/* ══════════════════════════════
+  LIEN HE
+══════════════════════════════ */
+
+.line-lienhe{
+  height: 40px;
+  background-color: #014DEE;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.contact-bar{
+  width:100%;
+  background:fff;
+  padding:20px 0;
+  width:1440px;
+  margin:60px auto;
+}
+
+.contact-container{
+  width:90%;
+  margin:auto;
+  display:flex;
+  align-items:start;
+  justify-content:space-between;
+}
+
+/* LOGO */
+.logo-1 img{
+  width:304px;
+  height: 96.73px;
+}
+
+/* RIGHT INFO */
+.info{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+/* ITEM */
+.info-item{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  color: #014DEE;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.info-item span{
+  color: #014DEE;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ICON */
+.info-item img{
+  max-width:30px;
+  max-height:30px;
+}
+
+/* LINK */
+.info-item a{
+  color: #014DEE;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info-item a:hover{
+  text-decoration:underline;
+}
+
+
+/* ══════════════════════════════════════════════════════
+   RESPONSIVE — 1439px
+══════════════════════════════════════════════════════ */
+@media (max-width: 1439px) {
+
+  /* NAVBAR */
+  .nav-container { width: 100%; padding: 0 20px; }
+  .nav-menu { gap: 24px; }
+  .nav-menu li a { font-size: 16px; }
+  .nav-btn a { font-size: 16px; padding: 7px 16px; }
+
+  /* HERO */
+  .hero { padding: 120px 40px 0; }
+  .hero-container { gap: 20px; }
+  .hero-text { width: 520px; }
+  .title { font-size: 96px; }
+  .subtitle { font-size: 22px; }
+  .event { font-size: 20px; }
+  .desc, .desc b { font-size: 15px; line-height: 30px; }
+  .time { font-size: 18px; padding: 10px; margin-bottom: 10px;}
+  .hero-image img { width: 520px; margin-top: 81px; }
+
+  /* LINE & FULL-WIDTH BLOCKS */
+  .line,
+  .logo-section,
+  .workshop-image,
+  .mentor-section,
+  .khachmoi,
+  .container-khachmoi,
+  .dangky,
+  .ketqua,
+  .line-lienhe,
+  .contact-bar { width: 100%; }
+
+  /* LOGO SECTION */
+  .logo-section { padding: 40px 20px; }
+  .logo-section h2 { font-size: 32px; margin-bottom: 40px; }
+  .logo-row { height: 55px; margin-right: 50px; }
+
+  /* MENTOR */
+  .mentor-section { padding: 40px 20px; }
+  .tag { font-size: 38px; padding: 14px 18px; }
+  .title-box h1 { font-size: 38px; }
+  .mentor-images img { width: 100%; }
+
+  /* KHACH MOI */
+  .khachmoi {
+    width: 100%;
+  }
+
+  .container-khachmoi {
+    max-width: 100%;
+    padding: 0 30px 40px 30px;
+  }
+
+  .title-khachmoi-wrapper {
+    max-width: 100%;
+    padding: 0 30px 30px 30px;
+  }
+
+  .title-khachmoi,
+  .title-khachmoi-highlight {
+    font-size: 80px;
+  }
+
+  .arrow-dacbiet {
+    height: 56px;
+  }
+
+  .right-khachmoi {
+    gap: 30px 24px;
+  }
+
+  .card-khachmoi {
+    max-width: 340px;
+  }
+
+  .image-khachmoi {
+    max-width: 340px;
+  }
+
+  .line-khachmoi{
+    margin: 20px 10px;
+  }
+  /* DANG KY */
+  .dangky { width: 100%; gap: 60px; padding: 40px 30px; }
+  .left h1 { font-size: 44px; }
+  .gift { font-size: 17px; }
+  .right h2 { font-size: 44px; }
+  .form-group label { font-size: 17px; }
+  .form-group .input-line input,
+  .form-group textarea { font-size: 17px; }
+
+  /* KET QUA */
+  .ketqua { width: 100%; margin: 30px auto; }
+  .container-ketqua { gap: 40px; }
+  .title-ketqua { font-size: 68px; margin-top: 60px; }
+  .item-ketqua { font-size: 18px; }
+  .btn-ketqua { font-size: 40px; padding: 15px 30px; }
+  .sub-ketqua { font-size: 22px; }
+
+  /* LIEN HE */
+  .line-lienhe { width: 100%; }
+  .contact-bar { width: 100%; margin: 40px auto; }
+  .logo-1 img { width: 220px; height: auto; }
+  .info-item { font-size: 16px; gap: 20px; }
+  .info-item a { font-size: 16px; }
+  .info-item span { font-size: 16px; }
+}
+
+
+/* ══════════════════════════════════════════════════════
+   RESPONSIVE — 1130px
+══════════════════════════════════════════════════════ */
+@media (max-width: 1130px) {
+
+  /* NAVBAR */
+  .nav-menu { gap: 16px; }
+  .nav-menu li a { font-size: 14px; }
+  .nav-btn a { font-size: 14px; padding: 6px 14px; }
+  .logo img { max-height: 54px; }
+
+  /* HERO — stack vertically */
+  .hero { padding: 100px 30px 0; }
+  .hero-container { flex-direction: column; align-items: center; }
+  .hero-text { width: 100%; max-width: 680px; }
+  .title { font-size: 80px; }
+  .subtitle { font-size: 20px; }
+  .event { font-size: 18px; }
+  .desc, .desc b { font-size: 14px; line-height: 28px; }
+  .time { font-size: 17px; }
+  .hero-image { width: 100%; max-width: 680px; text-align: center; }
+  .hero-image img { width: 100%; margin-top: 30px; }
+
+  /* LOGO SECTION */
+  .logo-section h2 { font-size: 26px; }
+  .logo-row { height: 48px; margin-right: 40px; }
+
+  /* MENTOR */
+  .tag { font-size: 28px; padding: 12px 14px; }
+  .title-box h1 { font-size: 26px; }
+  .mentor-images { flex-direction: column; align-items: center; gap: 20px; }
+  .mentor-images img { width: 90%; }
+
+  /* KHACH MOI */
+  .title-khachmoi,.title-khachmoi-highlight { font-size: 64px; }
+
+  .arrow-dacbiet {
+    height: 46px;
+  }
+
+  .right-khachmoi {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 20px;
+  }
+
+  .card-khachmoi {
+    max-width: 100%;
+  }
+
+  .image-khachmoi {
+    max-width: 100%;
+  }
+
+  .name-khachmoi {
+    font-size: 18px;
+  }
+
+  .hocbong {
+    font-size: 15px;
+  }
+
+  /* DANG KY */
+  .dangky { flex-direction: column; gap: 40px; padding: 40px 30px; }
+  .left, .right { flex: none; width: 100%; }
+  .left h1 { font-size: 40px; margin-bottom: 20px; }
+  .right h2 { font-size: 40px; }
+  .gift { font-size: 16px; }
+  .form-group label { font-size: 16px; }
+  .form-group .input-line input,
+  .form-group textarea { font-size: 16px; }
+
+  /* KET QUA */
+  .container-ketqua { flex-direction: column; gap: 20px; }
+  .left-ketqua { width: 100%; }
+  .right-ketqua { width: 100%; }
+  .title-ketqua { font-size: 56px; margin-top: 20px; }
+  .item-ketqua { font-size: 16px; text-align: left; margin: 20px 0; }
+  .btn-ketqua { font-size: 32px; padding: 15px 20px; justify-content: center; }
+  .sub-ketqua { font-size: 20px; }
+
+  /* LIEN HE */
+  .contact-container { flex-direction: column; gap: 30px; }
+  .logo-1 img { max-width: 180px; }
+  .info-item { font-size: 15px; gap: 16px; }
+  .info-item a { font-size: 15px; }
+  .info-item span { font-size: 15px; }
+}
+
+
+/* ══════════════════════════════════════════════════════
+   RESPONSIVE — 900px (Tablet)
+══════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+
+
+  /* NAVBAR — hamburger toggle */
+  .navbar { padding: 5px 16px; }
+  .nav-btn { display: none; }
+  .logo img { max-height: 46px; }
+
+  /* Hiện hamburger */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 3000;
+    background: none;
+    border: none;
+    margin-top: 0;
+  }
+  .hamburger:hover { background: none; transform: none; }
+  .hamburger span {
+    display: block;
+    width: 26px;
+    height: 2.5px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+  }
+  .hamburger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+  /* Slide-in panel */
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    max-width: 320px;
+    height: 100vh;
+    background: #014DEE;
+    padding: 90px 30px 40px;
+    z-index: 2000;
+    transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+  }
+  .nav-menu.open { right: 0; }
+
+  .nav-menu li { border-bottom: 1px solid rgba(255,255,255,0.2); }
+  .nav-menu li a { font-size: 18px; display: block; padding: 18px 0; }
+  .nav-menu li a:hover{  opacity: 0.7; transform: scale(1.05);}
+
+  /* Hiện mobile-cta (nút đăng ký) trong menu */
+  .nav-menu .mobile-cta {
+    display: block;
+    margin-top: 30px;
+    border-bottom: none;
+  }
+  .nav-menu .mobile-cta a {
+    background: #fff;
+    color: #014DEE;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 700;
+  }
+  .nav-menu .mobile-cta a:hover {background: #e6e6e6; transform: scale(1.05); }
+
+  /* HERO */
+  .hero { padding: 80px 20px 0; }
+  .hero-text { max-width: 100%; }
+  .title { font-size: 64px; }
+  .subtitle { font-size: 18px; }
+  .event { font-size: 16px; }
+  .desc, .desc b { font-size: 13.5px; line-height: 26px; }
+  .time { font-size: 15px; }
+  .hero-image img { margin-top: 20px; }
+
+  /* LOGO SECTION */
+  .logo-section { padding: 30px 16px; }
+  .logo-section h2 { font-size: 20px; margin-bottom: 24px; }
+  .logo-row { height: 40px; margin-right: 30px; }
+
+  /* WORKSHOP */
+  .workshop-image { margin: 20px auto; }
+
+  /* MENTOR */
+  .mentor-section { padding: 30px 16px; }
+  .tag { font-size: 22px; padding: 10px 12px; }
+  .title-box h1 { font-size: 20px; }
+  .mentor-images img { width: 100%; }
+
+  /* KHACH MOI */
+  .khachmoi { margin: 20px auto; padding: 30px 16px; }
+  .container-khachmoi { padding: 16px; }
+  .title-khachmoi-wrapper { padding: 0 20px 24px 50px; }
+  .title-khachmoi, .title-khachmoi-highlight { font-size: 48px; }
+  .title-khachmoi-highlight { padding: 12px 0 12px 14px; }
+  .right-khachmoi { grid-template-columns: repeat(2, 1fr); gap: 30px 20px;}
+  .line-khachmoi { display: none; }
+  .image-khachmoi { width: 100%; height: auto; }
+  .line-image { width: 100%; }
+  .arrow-dacbiet { height: 30px; }
+  .name-khachmoi { font-size: 15px; }
+  .hocbong { font-size: 13px; }
+
+  /* DANG KY */
+  .dangky { padding: 30px 16px; gap: 30px; }
+  .left h1 { font-size: 34px; }
+  .gift { font-size: 14px; padding: 20px 0; }
+  .right h2 { font-size: 32px; margin-bottom: 24px; }
+  .form-group { padding: 14px 0; }
+  .form-group label { font-size: 14px; }
+  .form-group .input-line input,
+  .form-group textarea { font-size: 14px; }
+  button { font-size: 16px; padding: 14px; }
+
+  /* KET QUA */
+  .ketqua { padding: 30px 0; margin: 20px auto; }
+  .container-ketqua { padding: 0 16px; }
+  .sub-ketqua { font-size: 18px; padding: 0 16px; }
+  .title-ketqua { font-size: 44px; }
+  .item-ketqua { font-size: 14px; margin: 16px 0; }
+  .btn-ketqua { font-size: 26px; padding: 14px 16px; }
+
+  /* LIEN HE */
+  .line-lienhe { height: 28px; }
+  .contact-bar { margin: 30px auto; padding: 16px 0; }
+  .contact-container { padding: 0 16px; }
+  .logo-1 img { max-width: 160px; }
+  .info-item { font-size: 14px; gap: 14px; margin-top: 14px; }
+  .info-item img { max-width: 22px; max-height: 22px; }
+  .info-item a { font-size: 14px; }
+  .info-item span { font-size: 14px; }
+}
+
+
+/* ══════════════════════════════════════════════════════
+   RESPONSIVE — 768px (Mobile)
+══════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar { padding: 5px 12px; }
+  .logo img { height: 38px; }
+  .hamburger span { width: 22px; }
+
+  #tongquan,
+  #workshop,
+  #diengia,
+  #khachmoi,
+  #lienhe,
+  #dangky {
+    scroll-margin-top: 100px;
+  }
+
+
+  /* HERO */
+  .hero { padding: 70px 12px 0; }
+  .title { font-size: 46px; }
+  .subtitle { font-size: 15px; margin: 14px 0; }
+  .event { font-size: 13px; }
+  .desc, .desc b { font-size: 12.5px; line-height: 24px; }
+  .time { font-size: 13px; margin-top: 14px; }
+  .hero-image img { padding-bottom: 2px; }
+
+  /* LOGO SECTION */
+  .logo-section { padding: 24px 12px; }
+  .logo-section h2 { font-size: 16px; margin-bottom: 18px; }
+  .logo-row { height: 32px; margin-right: 20px; }
+
+  /* MENTOR */
+  .mentor-section { padding: 24px 12px; }
+  .tag { font-size: 16px; padding: 8px 10px; }
+  .title-box h1 { font-size: 16px; }
+
+  /* KHACH MOI */
+  .khachmoi { padding: 20px 12px; margin: 14px auto; }
+  .container-khachmoi { padding: 12px; flex-direction: column; }
+  .title-khachmoi-wrapper { padding: 0 14px 20px 0px; }
+  .title-khachmoi, .title-khachmoi-highlight { font-size: 30px; }
+  .title-khachmoi-highlight { padding: 8px 0 8px 10px; }
+  .right-khachmoi {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 14px;
+  }
+  .arrow-dacbiet { height: 20px; }
+  .line-khachmoi { display: none; }
+  .image-khachmoi { width: 100%; height: auto; }
+  .line-image { width: 100%; }
+  .name-khachmoi { font-size: 12px; margin-top: 6px; }
+  .hocbong { font-size: 11px; }
+
+
+  /* DANG KY */
+  .dangky { padding: 24px 12px; gap: 24px; }
+  .left h1 { font-size: 28px; line-height: 1.2; margin-bottom: 16px; }
+  .gift { font-size: 12.5px; padding: 14px 0; }
+  .right h2 { font-size: 26px; margin-bottom: 20px; }
+  .form-group { padding: 12px 0; }
+  .form-group label { font-size: 13px; white-space: nowrap; }
+  .form-group .input-line { margin-left: 12px; }
+  .form-group .input-line input,
+  .form-group textarea { font-size: 13px; }
+  button { font-size: 14px; padding: 12px; margin-top: 14px; }
+
+  /* KET QUA */
+  .ketqua { padding: 24px 0; margin: 14px auto; }
+  .container-ketqua { flex-direction: column; gap: 16px; padding: 0 12px; }
+  .sub-ketqua { font-size: 15px; padding: 0 12px; }
+  .title-ketqua { font-size: 34px; margin-top: 10px; }
+  .item-ketqua { font-size: 12.5px; margin: 12px 0; text-align: left; }
+  .btn-ketqua { font-size: 20px; padding: 12px; justify-content: center; }
+
+  /* LIEN HE */
+  .line-lienhe { height: 20px; }
+  .contact-bar { margin: 20px auto; }
+  .contact-container { flex-direction: column; gap: 20px; padding: 0 12px; }
+  .logo-1 img { max-width: 130px; }
+  .info-item { font-size: 12px; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+  .info-item img { max-width: 18px; max-height: 18px; }
+  .info-item a { font-size: 12px; }
+  .info-item span { font-size: 12px; }
+}
+
+@media (max-width: 450px) {
+    .title-khachmoi, .title-khachmoi-highlight { font-size: 20px; }
+}
